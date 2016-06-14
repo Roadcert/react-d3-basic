@@ -1,6 +1,6 @@
 {
-  "name": "react-d3-basic",
-  "version": "1.6.11",
+  "name": "react-d3-basic-roadcert-edition",
+  "version": "0.0.2",
   "description": "react chart component",
   "main": "./lib/index.js",
   "directories": {
@@ -11,7 +11,7 @@
     "build": "rm -rf ./lib && BABEL_ENV=production ./node_modules/.bin/babel ./src --out-dir ./lib",
     "prod": "BABEL_ENV=production NODE_ENV=0 webpack --config webpack.prod.config.js && BABEL_ENV=production NODE_ENV=1 webpack --config webpack.prod.config.js"
   },
-  "author": "ElixirDoc team",
+  "author": "James Cordeiro - Roadcert",
   "license": "Apache 2.0",
   "devDependencies": {
     "babel-cli": "^6.6.4",
@@ -42,14 +42,10 @@
     "webpack-dev-server": "^1.11.0",
     "webpack-hot-middleware": "^2.9.1"
   },
-  "peerDependencies": {
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7"
-  },
   "dependencies": {
     "d3-array": "^0.7.1",
     "d3-scale": "^0.6.4",
-    "react-d3-core": "^1.2.8",
+    "react-d3-core-roadcert-edition": "0.0.1",
     "react-d3-shape": "^0.2.13",
     "react-faux-dom": "^2.1.0"
   }
