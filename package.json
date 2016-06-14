@@ -1,6 +1,6 @@
 {
   "name": "react-d3-basic-roadcert-edition",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "react chart component",
   "main": "./lib/index.js",
   "directories": {
@@ -46,7 +46,7 @@
     "d3-array": "^0.7.1",
     "d3-scale": "^0.6.4",
     "react-d3-core-roadcert-edition": "0.0.1",
-    "react-d3-shape": "^0.2.13",
-    "react-faux-dom": "^2.1.0"
+    "react-d3-shape-roadcert-edition": "^0.0.1",
+    "react-faux-dom-roadcert-edition": "^0.0.1"
   }
 }
